@@ -19,7 +19,7 @@ export default class Navbar extends Component {
                             <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" to="." id="dropdownId" data-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <a className="nav-link dropdown-toggle" href="." id="dropdownId" data-toggle="dropdown" aria-expanded="false">Shop</a>
                             <div className="dropdown-menu" aria-labelledby="dropdownId">
                                 <Link className="dropdown-item" to=".">Products</Link>
                                 <Link className="dropdown-item" to=".">Cart</Link>
